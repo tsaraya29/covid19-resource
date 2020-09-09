@@ -137,25 +137,6 @@ a:hover {
 	padding:30px;
 }
 
-/* .nav-tabs > li > a:hover {
-	color: #6275a6;
-	border-color: #fff #fff #fff;
-	border-radius:0;
-	background-color:#fff;
-	transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-}
-.nav-tabs > li > a.active {
-	color: #6275a6;
-	border-radius:0;
-	transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-} */
-
 @media (max-width: 767px) {
 	.navbar-brand {
 		padding-top: 6px;
@@ -272,38 +253,6 @@ a:hover {
   
   z-index: 1;
 }
-/* 
-#main-slider .active .animation.animated-item-1 {
-  -webkit-animation: fadeInUp 300ms linear 300ms both;
-  -moz-animation: fadeInUp 300ms linear 300ms both;
-  -o-animation: fadeInUp 300ms linear 300ms both;
-  -ms-animation: fadeInUp 300ms linear 300ms both;
-  animation: fadeInUp 300ms linear 300ms both;
-}
-
-#main-slider .active .animation.animated-item-2 {
-  -webkit-animation: fadeInUp 300ms linear 600ms both;
-  -moz-animation: fadeInUp 300ms linear 600ms both;
-  -o-animation: fadeInUp 300ms linear 600ms both;
-  -ms-animation: fadeInUp 300ms linear 600ms both;
-  animation: fadeInUp 300ms linear 600ms both;
-}
-
-#main-slider .active .animation.animated-item-3 {
-  -webkit-animation: fadeInUp 300ms linear 900ms both;
-  -moz-animation: fadeInUp 300ms linear 900ms both;
-  -o-animation: fadeInUp 300ms linear 900ms both;
-  -ms-animation: fadeInUp 300ms linear 900ms both;
-  animation: fadeInUp 300ms linear 900ms both;
-}
-
-#main-slider .active .animation.animated-item-4 {
-  -webkit-animation: fadeInUp 300ms linear 1200ms both;
-  -moz-animation: fadeInUp 300ms linear 1200ms both;
-  -o-animation: fadeInUp 300ms linear 1200ms both;
-  -ms-animation: fadeInUp 300ms linear 1200ms both;
-  animation: fadeInUp 300ms linear 1200ms both;
-} */
 
 @media (max-width: 767px) {
 	#main-slider .carousel .carousel-content {
@@ -339,9 +288,9 @@ a:hover {
 
 .text-center h2 {
 	margin-top:20px;
-	margin-bottom:20px;
-	text-transform:uppercase;
-	font-size:18px;
+  text-transform:uppercase;  
+  font-size:20px;
+  
 	color: #6275a6;
 }
 
@@ -388,10 +337,12 @@ a:hover {
 }
 
 .partners ul li{
-  display: inline-flex;
+ 
   justify-content: space-around;
-  /* text-align: center; */
-  width: 20%;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+   width: 20%;
 }
 
 
@@ -575,7 +526,7 @@ a:hover {
 }
 
 .lates h2 {
-	font-size:20px;
+	font-size:30px;
 	font-weight:600;
 	color:#333;
 }
@@ -1169,8 +1120,6 @@ ul.sidebar-gallery {
   border-color:#f2f2f2;
   box-shadow: none;
 }
-
-
 .validation {
     color: red;
     display:none;
@@ -1178,7 +1127,6 @@ ul.sidebar-gallery {
     font-weight:400;
     font-size:13px;
 }
-
 #sendmessage {
     color: green;
     border:1px solid green;
@@ -1188,7 +1136,6 @@ ul.sidebar-gallery {
     font-weight:600;
     margin-bottom:15px;
 }
-
 #errormessage {
     color: red;
     display:none;
