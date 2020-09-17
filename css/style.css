@@ -142,7 +142,7 @@ a:hover {
 	}
 
 	.nav-tabs > li > a:hover {
-		border-color: #f3f3f3;
+		border-color: #000;
 	}
 }
 
@@ -191,6 +191,10 @@ a:hover {
 #main-slider .carousel p {
   color: #ddd;
   font-size:25px;
+}
+#main-slider .carousel a {
+  color: #ddd;
+  
 }
 
 #main-slider .carousel .btn-slide {
